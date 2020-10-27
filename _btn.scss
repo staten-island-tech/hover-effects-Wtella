@@ -3,12 +3,20 @@
 .btn, 
 .btn:link,
 .btn:visited{
+    font-family: 'Bebas Neue', cursive;
     position: relative;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 1rem 3rem;
+    margin: 2rem auto;
+    background-color: rgb(23, 90, 190);
     transition: all 0.2s;
+
+}
+
+.btn{
+    color: white;
 }
 
 .btn:hover{
-    transform: scale(1.5);
 }
