@@ -1,1 +1,88 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-family: 'Bebas Neue', cursive;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  margin: 2rem auto;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn {
+  color: black;
+  border: 3px solid black;
+}
+
+.btn:hover {
+  border-radius: 2rem;
+  -webkit-box-shadow: 0 2px 10px black;
+          box-shadow: 0 2px 10px black;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.egg {
+  width: 30rem;
+  position: relative;
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline: 5px solid black;
+}
+
+.egg:hover {
+  -webkit-filter: grayscale(100%);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  outline-offset: 0.5rem;
+}
+
+.container {
+  width: 50vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

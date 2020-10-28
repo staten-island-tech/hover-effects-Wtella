@@ -1,0 +1,15 @@
+@import "_variables.scss";
+
+.egg{
+    width: 30rem;
+    position: relative;
+    transform: scale(0.95);
+    transition: all 0.3s;
+    outline: 5px solid black;
+}
+
+.egg:hover{
+    -webkit-filter: grayscale(100%);
+    transform: scale(1);
+    outline-offset: 0.5rem;
+}
