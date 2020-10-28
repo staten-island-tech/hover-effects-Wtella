@@ -1,0 +1,15 @@
+@import "variables";
+
+.textclip{
+    font-size: 5rem;
+    transition: all 0.3s;
+    color: rgb(255, 70, 70);
+    font-family: 'Shrikhand', cursive;
+}
+
+.textclip:hover{
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: url(img/flowers.jpg);
+    color: transparent;
+}
