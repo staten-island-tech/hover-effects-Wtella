@@ -1,0 +1,37 @@
+@import "_variables.scss";
+
+.group{
+    width: 50rem;
+    //background-color: grey;
+    display: flexbox;
+    position: relative;
+    
+}
+
+.photo{
+    transition: all 0.3s;
+    box-shadow: 0 2px 10px black;
+}
+
+.photo:hover{
+    transform: scale(1.2);
+}
+
+.photo-swamp{
+    width: 15rem;
+    max-height: 84px;
+}
+
+.photo-walking{
+    width: 15rem;
+    max-height: 84px;
+}
+
+.photo-dome{
+    width: 15rem;
+}
+
+.group:hover .photo:not(:hover){
+    transform: scale(0.8);
+    opacity: 80%;
+}
